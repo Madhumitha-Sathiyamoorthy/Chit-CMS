@@ -13,6 +13,7 @@ class AuthController extends BaseController
     {
         return view('dashboard');
     }
+
     public function login(Request $request)
     {
         $request->validate([
@@ -25,6 +26,19 @@ class AuthController extends BaseController
         }
         return redirect("/")->withErrors(['errMsg' => 'Login details are not valid']);
     }
+
+    public function enterToken(Request $request)
+    {
+        try {
+            return view('enterToken');
+        } catch (\Throwable $e) {
+            $response['status'] = 500;
+            $response['message'] = 'error->' . $e->getMessage();
+            \Log::error("enterToken Failed --->" . $e->getMessage());
+            return $response;
+        }
+    }
+
     public function logout(Request $request)
     {
         Auth::logout();

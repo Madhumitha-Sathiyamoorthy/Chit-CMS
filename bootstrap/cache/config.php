@@ -184,7 +184,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => '/data/Novac-Projects/Others/lara-project/storage/framework/cache/data',
+        'path' => '/data/Novac-Projects/Others/Chit-CMS/storage/framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -267,7 +267,7 @@
       array (
         'driver' => 'sqlite',
         'url' => NULL,
-        'database' => '/data/Novac-Projects/Others/lara-project/database/database.sqlite',
+        'database' => '/data/Novac-Projects/Others/Chit-CMS/database/database.sqlite',
         'prefix' => '',
         'foreign_key_constraints' => true,
       ),
@@ -364,12 +364,12 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => '/data/Novac-Projects/Others/lara-project/storage/app',
+        'root' => '/data/Novac-Projects/Others/Chit-CMS/storage/app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => '/data/Novac-Projects/Others/lara-project/storage/app/public',
+        'root' => '/data/Novac-Projects/Others/Chit-CMS/storage/app/public',
         'url' => 'http://localhost/storage',
         'visibility' => 'public',
       ),
@@ -387,7 +387,7 @@
     ),
     'links' => 
     array (
-      '/data/Novac-Projects/Others/lara-project/public/storage' => '/data/Novac-Projects/Others/lara-project/storage/app/public',
+      '/data/Novac-Projects/Others/Chit-CMS/public/storage' => '/data/Novac-Projects/Others/Chit-CMS/storage/storage/app/public/',
     ),
   ),
   'hashing' => 
@@ -422,13 +422,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => '/data/Novac-Projects/Others/lara-project/storage/logs/laravel.log',
+        'path' => '/data/Novac-Projects/Others/Chit-CMS/storage/logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => '/data/Novac-Projects/Others/lara-project/storage/logs/laravel.log',
+        'path' => '/data/Novac-Projects/Others/Chit-CMS/storage/logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -479,7 +479,7 @@
       ),
       'emergency' => 
       array (
-        'path' => '/data/Novac-Projects/Others/lara-project/storage/logs/laravel.log',
+        'path' => '/data/Novac-Projects/Others/Chit-CMS/storage/logs/laravel.log',
       ),
     ),
   ),
@@ -545,7 +545,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => '/data/Novac-Projects/Others/lara-project/resources/views/vendor/mail',
+        0 => '/data/Novac-Projects/Others/Chit-CMS/resources/views/vendor/mail',
       ),
     ),
   ),
@@ -650,7 +650,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => '/data/Novac-Projects/Others/lara-project/storage/framework/sessions',
+    'files' => '/data/Novac-Projects/Others/Chit-CMS/storage/framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -670,9 +670,9 @@
   array (
     'paths' => 
     array (
-      0 => '/data/Novac-Projects/Others/lara-project/resources/views',
+      0 => '/data/Novac-Projects/Others/Chit-CMS/resources/views',
     ),
-    'compiled' => '/data/Novac-Projects/Others/lara-project/storage/framework/views',
+    'compiled' => '/data/Novac-Projects/Others/Chit-CMS/storage/framework/views',
   ),
   'flare' => 
   array (
@@ -827,7 +827,7 @@
     ),
     'temporary_files' => 
     array (
-      'local_path' => '/data/Novac-Projects/Others/lara-project/storage/framework/cache/laravel-excel',
+      'local_path' => '/data/Novac-Projects/Others/Chit-CMS/storage/framework/cache/laravel-excel',
       'local_permissions' => 
       array (
       ),

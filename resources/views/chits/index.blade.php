@@ -352,14 +352,13 @@
             dataType: 'JSON',
             success: function(response) {
                 if (response.message === 'success') {
-
                     searchEle.parentNode.appendChild(a);
                     let ul = document.createElement('ul');
                     ul.classList.add('ulSearch');
                     for (let i = 0; i < response.data.length; i++) {
                         var li = document.createElement("li")
                         var link = document.createElement("a")
-                        link.href = 'http://lara-project.dv/viewChitCustomer/' + response.data[i]._id
+                        link.href = 'http://chit-cms.dv/viewChitCustomer/' + response.data[i]._id
                         link.target = "_blank"
                         let highlightName = response.data[i].name.replace(new RegExp(val, 'gi'), `<strong>$&</strong>`)
                         link.innerHTML = highlightName

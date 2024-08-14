@@ -309,6 +309,7 @@
                                 <li><a href="{{url('socialPost')}}">Social Post</a></li>
                                 <li><a href="{{url('createChitBlog')}}">Chit Blog</a></li>
                                 <li><a href="{{url('howItWorks')}}">How it works</a></li>
+                                <li><a href="{{url('emailCompose')}}">Compose Email</a></li>
                                 @endif
                             </ul>
                         </li>

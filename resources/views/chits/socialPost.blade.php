@@ -145,7 +145,7 @@
 
 </div>
 @section('script')
-Plugins js
+<!-- Plugins js -->
 <script src="{{asset('assets/js/libs/moment/moment.js')}}"></script>
 <script src="{{asset('assets/js/libs/bootstrap-editable/js/index.js')}}"></script>
 <script src="{{asset('assets/js/form-xeditable.init.js')}}"></script>

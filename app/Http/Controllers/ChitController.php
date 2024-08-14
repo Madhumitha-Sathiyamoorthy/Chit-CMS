@@ -44,7 +44,6 @@ class ChitController extends BaseController
                                 ->orWhere('mobile', 'LIKE', "%{$searchTerm}%");
                         });
                     })
-
                     ->get();
                 $search = 1;
             } else {
@@ -156,7 +155,7 @@ class ChitController extends BaseController
                 'email' => 'required',
                 'mobile' => 'required|min:10',
                 'kycNumber' => 'required',
-                'salary' => 'required',
+                'salary' => 'required', 
             ]);
             if ($validated->fails()) {
                 return back()->withErrors($validated)->withInput();

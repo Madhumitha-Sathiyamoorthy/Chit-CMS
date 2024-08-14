@@ -45,7 +45,7 @@
                                 you provide your users with feedback on their form submission before sending it
                                 to your server.</p>
 
-                            <form class="custom-validation" method="post" novalidate action="{{url('/saveAnsOrder/' . $data['customerDetails']->_id)}}">
+                            <form class="custom-validation" method="post" novalidate action="{{url('updateChitCustomer/' . $data['customerDetails']->_id)}}">
                                 @csrf
                                 @if($errors->any())
                                 {!! implode('', $errors->all('<div style="color:red;">:message</div>')) !!}
